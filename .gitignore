@@ -1,0 +1,27 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go modules
+vendor/
+
+# IDE files
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-specific
+mnist.wasm
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
